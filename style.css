@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #eee;
+    font-family: 'Agency Fb';
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: powderblue;
+}
+
+.bio-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: teal;
+}
+
+.bio-image,
+.bio-name {
+    float: left;
+    padding: 20px;
+}
+
+.div-clear {
+    clear: both;
+}
+
+.bio-contact {
+    float: right;
+    color: black;
+    padding: 20px;
+}
+
+.bio-contact a {
+    text-decoration: none;
+    color: black;
+}
+
+.bio-contact ul {
+    list-style-type: none;
+}
+
+#icon {
+    padding-right: 5px;
+    padding-top: 2px;
+}
+
+hr {
+    border: 2px solid;
+}
+
+.skill-name {
+    width: 20%;
+    float: left;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.skill-desc {
+    width: 80%;
+    float: right;
+}
+
+.skill-desc table,
+tr,
+td,
+th {
+    border: 2px solid black;
+    padding: 6px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.skill-desc table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.skill-desc th {
+    background: orange;
+}
+
+.skill-desc tr:nth-child(even) {
+    background: gray;
+}
+
+.education-skill {
+    padding: 20px;
+}
+
+#frii {
+    width: 2px;
+    height: 2px;
+}
+
+footer {
+    font-family: sans-serif;
+    background-color: black;
+    color: rgb(252, 252, 252);
+    text-align: center;
+    font-size: 2em;
+    padding: 20px;
+}
